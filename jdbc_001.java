@@ -10,7 +10,7 @@ public class jdbc_001 {
 		try
 		{
 			Class.forName("oracle.jdbc.OracleDriver");
-			con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcle","c##praveen","7661009017");
+			con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcle","c##praveen","7661009017");//driver url , user_name, password
 			st = con.createStatement();
 			String q = "create table";
 			System.out.print("enter Table name : ");
