@@ -1,3 +1,4 @@
+//creating jdbc appln to create the table and insert the data from java appln to database
 package jdbc_appln002;
 import java.sql.*;
 import java.util.*;
